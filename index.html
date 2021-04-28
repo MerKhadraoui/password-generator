@@ -7,9 +7,40 @@
     <title>Password Generetor</title>
     <link rel="stylesheet" href="./styles/main.css" />
   </head>
-  <div>
+  <form>
+    <div>
+      Enter Possible Chars
+      <ul>
+        <li>
+          <nav>
+            Numbers<input type="checkbox" name="PossiblChar" id="numb" />
+          </nav>
+        </li>
+        <li>
+          <nav>
+            Alphabets<input type="checkbox" name="PossiblChar" id="alph" />
+          </nav>
+        </li>
+        <li>
+          <nav>
+            Characters<input type="checkbox" name="PossiblChar" id="chars" />
+          </nav>
+        </li>
+      </ul>
+    </div>
+    <div>
+      select Password Length
+      <input type="number" name="length" id="input2" />
+    </div>
+    <div>
+      Set Items Number
+      <input type="number" name="PossiblChar" id="input3" />
+    </div>
+    <button class="btn" id="button" onclick="addToList()">
+      Get New Passe Word
+    </button>
     <ul class="result"></ul>
-  </div>
+  </form>
   <script src="./scripts/index.js"></script>
   <body></body>
 </html>
