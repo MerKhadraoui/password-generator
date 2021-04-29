@@ -7,40 +7,36 @@
     <title>Password Generetor</title>
     <link rel="stylesheet" href="./styles/main.css" />
   </head>
-  <form>
-    <div>
-      Enter Possible Chars
-      <ul>
-        <li>
-          <nav>
-            Numbers<input type="checkbox" name="PossiblChar" id="numb" />
-          </nav>
-        </li>
-        <li>
-          <nav>
-            Alphabets<input type="checkbox" name="PossiblChar" id="alph" />
-          </nav>
-        </li>
-        <li>
-          <nav>
-            Characters<input type="checkbox" name="PossiblChar" id="chars" />
-          </nav>
-        </li>
-      </ul>
-    </div>
-    <div>
-      select Password Length
-      <input type="number" name="length" id="input2" />
-    </div>
-    <div>
-      Set Items Number
-      <input type="number" name="PossiblChar" id="input3" />
-    </div>
-    <button class="btn" id="button" onclick="addToList()">
-      Get New Passe Word
-    </button>
-    <ul class="result"></ul>
-  </form>
-  <script src="./scripts/index.js"></script>
-  <body></body>
+  <body>
+    <section>
+      <div>
+        <h1>Enter Possible Chars</h1>
+        <ul>
+          <li>
+            <nav>
+              Numbers<input type="checkbox" name="PossiblChar" id="numb" />
+            </nav>
+          </li>
+          <li>
+            <nav>
+              Alphabets<input type="checkbox" name="PossiblChar" id="alph" />
+            </nav>
+          </li>
+          <li>
+            <nav>
+              Characters<input type="checkbox" name="PossiblChar" id="chars" />
+            </nav>
+          </li>
+        </ul>
+      </div>
+      <div>
+        select Password Length
+        <input type="number" name="length" id="input2" />
+        the Length is Multiplied by 3
+      </div>
+      <button class="btn" id="Password">Get New Passe Word</button>
+      <div class="print"></div>
+    </section>
+    <script src="./scripts/index.js"></script>
+  </body>
 </html>
