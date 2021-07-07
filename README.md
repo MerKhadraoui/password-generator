@@ -1,5 +1,8 @@
 
-[Screenshot from 2021-07-07 09-25-55](https://user-images.githubusercontent.com/75792175/124717512-7e327a80-df05-11eb-9ed0-cb51071c3c20.png)
+
+
+![Screenshot from 2021-07-07 09-25-55](https://user-images.githubusercontent.com/75792175/124718267-3829e680-df06-11eb-8a06-79643acc52bb.png)
+
 ## my password-generator  App: 
 https://merkhadraoui.github.io/password-generator/
 ## Table of contents:
